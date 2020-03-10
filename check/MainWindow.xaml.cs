@@ -23,6 +23,8 @@ namespace check
         public MainWindow()
         {
             InitializeComponent();
+            Button b1 = new Button();
+            b1.Tag = "123";
         }
     }
 }
